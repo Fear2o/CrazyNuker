@@ -22,8 +22,8 @@
 ### 1. Clone the Repository
 First, clone this repository to your local machine.  
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Fear2o/DiscordNuker
+cd DiscordNuker
 ```
 
 ### 2. Install Dependencies
