@@ -3,7 +3,14 @@
 
 
 > ⚠️ **Educational Purposes Only** ⚠️  
-> This bot is designed for experimental learning and should **only** be used in environments where you have explicit permission from server owners. Misuse can result in serious consequences like account suspension or legal action. Use responsibly! 
+> This bot is designed for experimental learning and should **only** be used in environments where you have explicit permission from server owners. Misuse can result in serious consequences like account suspension or legal action. Use responsibly!
+
+
+![GitHub stars](https://img.shields.io/github/stars/Fear2o/DiscordNuker?style=social)
+![Build Status](https://img.shields.io/github/workflow/status/Fear2o/DiscordNuker/CI)
+![License](https://img.shields.io/github/license/Fear2o/DiscordNuker)
+![Contributors](https://img.shields.io/github/contributors/Fear2o/DiscordNuker)
+
 
 ## ✨ Features
 - 🔥 **Server Renaming**: Changes the server name to a custom setting.
@@ -62,6 +69,7 @@ This will initiate the bot to rename the server, delete all channels, and create
 
 ## 🌟 Contributing & Support
 Feel free to star ⭐ the repo if you find this project useful! Contributions are welcome to improve functionality and add new features.
+
 
 ## 📜 Disclaimer
 This tool is intended for **educational purposes only**. Unauthorized or malicious use is strictly prohibited. Respect Discord’s guidelines and obtain necessary permissions before running this bot in any server environment.
