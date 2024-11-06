@@ -33,7 +33,7 @@ Customize these variables as desired:
 - `CHANNEL_NAME`: The name for channels to be created (e.g., `"fear has hacked you"`).
 - `SPAM_MESSAGE`: The message that will be spammed in each created channel.
 
-  ### 4. Enable Intents
+### 4. Enable Intents
 In the [Discord Developer Portal](https://discord.com/developers/applications), ensure **Message Content Intent** is enabled. This is required for the bot to read and respond to messages effectively.
 
 ### 5. Run the Bot
@@ -66,7 +66,7 @@ Feel free to star ⭐ the repo if you find this project useful! Contributions ar
 ## 📜 Disclaimer
 This tool is intended for **educational purposes only**. Unauthorized or malicious use is strictly prohibited. Respect Discord’s guidelines and obtain necessary permissions before running this bot in any server environment.
 
-
+**____________________________________________**
 
 
 *Crafted with passion by Fear.io*
