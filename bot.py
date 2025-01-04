@@ -1,4 +1,4 @@
-# Fixed the bot not being able to delete channels inside categories
+# Made it create and delete roles and rename all members
 
 
 import discord
