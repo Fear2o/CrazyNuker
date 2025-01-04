@@ -1,6 +1,6 @@
 # Fixed Some Issues
 
-mport discord
+import discord
 from discord.ext import commands
 import asyncio
 
